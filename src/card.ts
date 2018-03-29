@@ -1,5 +1,6 @@
 import {Directive, Input, ContentChildren, QueryList, ElementRef} from '@angular/core';
 import {NgxCardNumberTemplate, NgxCardNameTemplate, NgxCardExpiryTemplate, NgxCardCvcTemplate} from './inputs';
+import * as Card from 'card';
 
 declare var Card;
 
